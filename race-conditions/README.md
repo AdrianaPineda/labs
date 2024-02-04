@@ -36,7 +36,7 @@ func login(username: String, password: String) async throws -> LoginResponse {
 1. **Use cached request**: if there is already a request with the same payload (username and password) we use that one
 1. **If there's an existing request, cancel it**: at this point, if the cached request is not nil it means the previous request was made with a different payload and we need to invalidate it
 1. **Create a new request**: create a new Alamofire request
-1. **Update cache**: to reflect the most updated request. For simplicity, if it was already cached (i.e. the flow went through the first condition - step 1), we are assigning the same value
+1. **Update cache**: to reflect the most updated request. For code simplicity, even if it was already cached (i.e. the flow went through the first condition - step 1) we update the cache
 
 ### Avoid multiple threads
 
@@ -54,3 +54,8 @@ actor LoginService: LoginServiceProtocol {
 ```
 
 Actors have a built-in synchronization mechanism that ensures only one task at a time can access the actor's methods, making the code inherently thread-safe
+
+## Testing
+In order to validate these changes, we can check out how many requests we make to the backend. If the payload doesn't change, the app should only make one request:
+
+![race-conditions](race-conditions.gif)

@@ -24,9 +24,9 @@ class LoginRepository: LoginRepositoryProtocol {
 
     func login(username: String, password: String) async throws {
         do {
-            print("login-repository/login/\(username)")
+            print("=====> login-repository/login/\(username)")
             let response = try await service.login(username: username, password: password)
-            print("login-repository/token \n\(response)")
+            print("login-repository/token \n\(response) <=====")
         } catch {
             throw LoginError.serverError
         }
