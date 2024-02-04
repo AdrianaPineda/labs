@@ -58,4 +58,7 @@ Actors have a built-in synchronization mechanism that ensures only one task at a
 ## Testing
 In order to validate these changes, we can check out how many requests we make to the backend. If the payload doesn't change, the app should only make one request:
 
-![race-conditions](race-conditions.gif)
+https://github.com/AdrianaPineda/labs/assets/3411265/4a4bd2a4-7f18-4b82-b101-e3c9c3c4d033
+
+
+
