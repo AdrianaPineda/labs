@@ -113,7 +113,13 @@ Demo of adding and editing accounts. Model is automatically stored in the device
 
 https://github.com/AdrianaPineda/labs/assets/3411265/61ef904f-2ed0-4da5-8d6b-fb6fda0540e2
 
-Demo of deleting accounts
+Demo of deleting accounts:
+
+
+
+https://github.com/AdrianaPineda/labs/assets/3411265/b4de2f16-a085-4216-97c2-cdd6816f04ce
+
+
 
 
 ## References
