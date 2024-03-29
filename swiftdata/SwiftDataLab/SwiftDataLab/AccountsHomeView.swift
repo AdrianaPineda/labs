@@ -35,7 +35,7 @@ struct AccountsHomeView: View {
     }
 
     func addAccount() {
-        let account = Account(name: "", accountDescription: "", currency: .CAD, users: [], transactions: [])
+        let account = Account(name: "", accountDescription: "", currency: .CAD)
         modelContext.insert(account)
         path = [account]
     }

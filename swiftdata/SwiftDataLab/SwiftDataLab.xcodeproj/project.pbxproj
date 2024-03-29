@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		01AC334D2BB653BA004E118B /* SwiftDataLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC334C2BB653BA004E118B /* SwiftDataLabApp.swift */; };
 		01AC334F2BB653BA004E118B /* AccountsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC334E2BB653BA004E118B /* AccountsHomeView.swift */; };
-		01AC33512BB653BA004E118B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC33502BB653BA004E118B /* Item.swift */; };
 		01AC33532BB653BC004E118B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AC33522BB653BC004E118B /* Assets.xcassets */; };
 		01AC33562BB653BC004E118B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AC33552BB653BC004E118B /* Preview Assets.xcassets */; };
 		01AC335D2BB653FD004E118B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC335C2BB653FD004E118B /* Account.swift */; };
-		01AC335F2BB65414004E118B /* AccountTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC335E2BB65414004E118B /* AccountTransaction.swift */; };
 		01AC33612BB65438004E118B /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC33602BB65438004E118B /* EditAccountView.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +19,9 @@
 		01AC33492BB653BA004E118B /* SwiftDataLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AC334C2BB653BA004E118B /* SwiftDataLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLabApp.swift; sourceTree = "<group>"; };
 		01AC334E2BB653BA004E118B /* AccountsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsHomeView.swift; sourceTree = "<group>"; };
-		01AC33502BB653BA004E118B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		01AC33522BB653BC004E118B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AC33552BB653BC004E118B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01AC335C2BB653FD004E118B /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		01AC335E2BB65414004E118B /* AccountTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTransaction.swift; sourceTree = "<group>"; };
 		01AC33602BB65438004E118B /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,13 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				01AC334C2BB653BA004E118B /* SwiftDataLabApp.swift */,
+				01AC335C2BB653FD004E118B /* Account.swift */,
 				01AC334E2BB653BA004E118B /* AccountsHomeView.swift */,
-				01AC33502BB653BA004E118B /* Item.swift */,
+				01AC33602BB65438004E118B /* EditAccountView.swift */,
 				01AC33522BB653BC004E118B /* Assets.xcassets */,
 				01AC33542BB653BC004E118B /* Preview Content */,
-				01AC335C2BB653FD004E118B /* Account.swift */,
-				01AC335E2BB65414004E118B /* AccountTransaction.swift */,
-				01AC33602BB65438004E118B /* EditAccountView.swift */,
 			);
 			path = SwiftDataLab;
 			sourceTree = "<group>";
@@ -152,8 +146,6 @@
 				01AC33612BB65438004E118B /* EditAccountView.swift in Sources */,
 				01AC334F2BB653BA004E118B /* AccountsHomeView.swift in Sources */,
 				01AC335D2BB653FD004E118B /* Account.swift in Sources */,
-				01AC335F2BB65414004E118B /* AccountTransaction.swift in Sources */,
-				01AC33512BB653BA004E118B /* Item.swift in Sources */,
 				01AC334D2BB653BA004E118B /* SwiftDataLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

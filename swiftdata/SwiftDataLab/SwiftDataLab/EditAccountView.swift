@@ -33,9 +33,7 @@ struct EditAccountView: View {
     let example = Account(
         name: "Test name",
         accountDescription: "Test description",
-        currency: .CAD,
-        users: [],
-        transactions: []
+        currency: .CAD
     )
     return EditAccountView(account: example)
 }
