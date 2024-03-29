@@ -8,7 +8,7 @@ An experiment to illustrate SwiftData usage in Xcode
 Key elements:
 
 1. `@Model`: keyword used for object models that will be stored and shown in the UI
-1. `@Bindable`: keyword used to bind the object models in the UI (it shows current model state and updates if needed)
+1. `@Bindable`: keyword used to bind the object models in the UI (it shows current model state and updates if needed).
 1. `@Query`: keyword to query object models from persistence
 1. `@State`: keyword used to hold the path of the navigation. It will allow us to navigate to the edit view of the object
 
@@ -42,7 +42,7 @@ enum AccountCurrency: String, Codable, CaseIterable {
 
 ### Bindable
 
-In order edit an `Account`, we have a bindable property on the edit view, which will show the current model state and update it if the user makes any changes:
+In order edit an `Account`, we have a bindable property on the edit view, which will show the current model state and update it if the user makes any changes. It's no different from editing an observable class
 
 ```swift
 struct EditAccountView: View {
