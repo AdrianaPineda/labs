@@ -1,5 +1,7 @@
 # SwiftData
-An experiment to illustrate SwiftData usage in Xcode
+An experiment to illustrate SwiftData usage in Xcode.
+
+I used [this tutorial](https://www.hackingwithswift.com/books/ios-swiftui/editing-swiftdata-model-objects) as a guide
 
 ## Description
 
