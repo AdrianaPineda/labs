@@ -1,7 +1,9 @@
 # SwiftData
 An experiment to illustrate SwiftData usage in Xcode.
 
-I used [this tutorial](https://www.hackingwithswift.com/books/ios-swiftui/editing-swiftdata-model-objects) as a guide
+I used these tutorials as a guide:
+* [Edit model objects](https://www.hackingwithswift.com/books/ios-swiftui/editing-swiftdata-model-objects)
+* [Create, edit ad delete model objects](https://www.hackingwithswift.com/quick-start/swiftdata/creating-editing-and-deleting-model-objects)
 
 ## Description
 
