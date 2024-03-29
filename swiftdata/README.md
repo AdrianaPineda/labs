@@ -113,6 +113,9 @@ Demo of adding and editing accounts. Model is automatically stored in the device
 
 https://github.com/AdrianaPineda/labs/assets/3411265/61ef904f-2ed0-4da5-8d6b-fb6fda0540e2
 
+Demo of deleting accounts
+
+
 ## References
 From a series of videos from Paul Hudson
 * [Edit SwiftData model objects](https://www.hackingwithswift.com/books/ios-swiftui/editing-swiftdata-model-objects)

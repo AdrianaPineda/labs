@@ -20,7 +20,9 @@ struct AccountsHomeView: View {
                     NavigationLink(value: account) {
                         Text(account.name)
                     }
-                }
+                }.onDelete(perform: { indexSet in
+                    deleteAccount(indexSet)
+                })
             }
             .navigationTitle("Accounts")
             .navigationDestination(for: Account.self, destination: EditAccountView.init)
@@ -38,6 +40,13 @@ struct AccountsHomeView: View {
         let account = Account(name: "", accountDescription: "", currency: .CAD)
         modelContext.insert(account)
         path = [account]
+    }
+
+    func deleteAccount(_ indexSet: IndexSet) {
+        for index in indexSet {
+            let account = accounts[index]
+            modelContext.delete(account)
+        }
     }
 }
 
