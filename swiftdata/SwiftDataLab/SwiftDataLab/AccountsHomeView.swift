@@ -20,9 +20,7 @@ struct AccountsHomeView: View {
                     NavigationLink(value: account) {
                         Text(account.name)
                     }
-                }.onDelete(perform: { indexSet in
-                    deleteAccount(indexSet)
-                })
+                }.onDelete(perform: deleteAccount)
             }
             .navigationTitle("Accounts")
             .navigationDestination(for: Account.self, destination: EditAccountView.init)
