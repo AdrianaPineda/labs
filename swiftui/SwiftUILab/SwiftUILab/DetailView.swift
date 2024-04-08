@@ -41,8 +41,6 @@ struct DetailView: View {
                     Button("Save") {
                         originalAccount = $account.wrappedValue
                         dismiss()
-                    }.onAppear {
-                        originalAccount = $account.wrappedValue
                     }
                 }
             }
