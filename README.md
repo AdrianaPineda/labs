@@ -6,3 +6,4 @@ Repository to make experiments in iOS.
 
 1. [Race conditions](race-conditions): prevent race conditions
 1. [Swift Data](swiftdata): showcase swiftdata usage
+1. [SwiftUI](swiftui): showcase swiftui usage
