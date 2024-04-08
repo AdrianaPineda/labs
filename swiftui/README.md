@@ -40,6 +40,10 @@ Demo of editing accounts and passing back the edited account to the parent view.
 
 
 
+https://github.com/AdrianaPineda/labs/assets/3411265/efcb0b84-2978-4ddb-9b43-cfb0a38fbfd0
+
+
+
 
 ## References
 
